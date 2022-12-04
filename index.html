@@ -1,0 +1,252 @@
+</DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8ac4c566da.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#progress">My Progress</a></li>
+                    <li><a href="#level up">Level Up</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact<a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi,I'm <span>Viveka Subramanian</span><br> from India</h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- --------- about -------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/background.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me<br></h1>
+                    <p style="font-size: 20px; text-align: justify;"><br>A highly organized and hard-working individual
+                        looking for a challenging position to begin my career
+                        in a high-level professional environment, while
+                        contributing to the growth of the organization with
+                        my technical, innovative and logicalskills.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('personal_info')">Personal Info</p>
+                        <p class="tab-links" onclick="opentab('skills')">Professional Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="personal_info">
+                        <ul>
+                            <li><span>Name</span><br>Viveka Subramanian</li>
+                            <li><span>Qualification</span><br>B.E ECE</li>
+                            <li><span>Gender</span><br>Female</li>
+                            <li><span>Blood Group</span><br>A1 +ve</li>
+                            <li><span>Languages Known</span><br>Tamil, English, Hindi(write)</li>
+                            <li><span>Nationality</span><br>Indian</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Software Languages</span><br><br>C Program<br><br>JAVA<br><br>Data
+                                Structures(Basics)<br><br>Algorithm(Basics)<br><br>HTML(Intermediate)</li>
+                            <li><span>Software</span><br><br>MATLAB<br><br>ARDUINO IDE</li>
+                            <li><span>App developement</span><br><br>Building Android apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017-2018</span><br><br>Ananya Vidyalaya Matric<br><br>SSLC With Aggregation of
+                                97%</li>
+                            <li><span>2019-2020</span><br><br>Ananya Vidyalaya Matric<br><br>HSC With Aggregation of
+                                80.66%</li>
+                            <li><span>2020-2024</span><br><br>Sri Eshwar College Of Engineering<br><br>Bachelor Of
+                                Engineering
+                                in Electronics And Communication Engineering<br><br>With GCPA of 9.35*</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------- Progress --------------- -->
+    <div id="progress">
+        <div class="container">
+            <h1 class="sub-title">My Progress</h1>
+            <div class="progress-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>SkillRack</h2>
+                    <p>In Skillrack I have solved 1650+ problems and 15+ certificates for solving many levels of
+                        programs.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-seedling"></i>
+                    <h2>Leetcode</h2>
+                    <p>In Leetcode platform I have solved 50+ programs and 20+ weekly and biweekly contest.And With a
+                        noticeable rank.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                    <h2>Github</h2>
+                    <p>In Github platform I have created 10+ repositeries.And those are filled with java codes on Data
+                        Structures based.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h2>Cyber Security</h2>
+                    <p>My Area of Interest is on Cyber Security and I am currently keeping my first step towards my
+                        Interest
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-award"></i>
+                    <h2>Mini Project</h2>
+                    <p>Won 3rd Price in Mini Project Expo under the Project VIRTUAL MOUSE
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <h2>Responsibilities</h2>
+                    <p>IEEE Member<br>IEEE Treasurer<br>Project Team leader<br>Machine Intelligence Club Treasurer
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+        <!----------level up--------->
+        <div id="level up">
+            <div class="container">
+                <h1 class="sub-title">Level Up</h1>
+                <div class="award-list">
+                    <div class="award">
+                        <img src="image/image-4.jpg">
+                        <div class="layer">
+                            <h3>COURSERA</h3>
+                            <p>Modern JavaScript: ES6 Basics<br>Introduction Of Microsoft Excel
+                            </p>
+                            <i class="fa-sharp fa-solid fa-pen-to-square"></i>
+                        </div>
+                    </div>
+                    <div class="award">
+                        <img src="image/image-5.jpg">
+                        <div class="layer">
+                            <h3>IEEE</h3>
+                            <p>IEEE Women in Engineering<br><br>IEEE Robotics And Automation Society</p>
+                            <i class="fa-solid fa-puzzle-piece"></i>
+                        </div>
+                    </div>
+                    <div class="award">
+                        <img src="image/image-6.jpg">
+                        <div class="layer">
+                            <h3>NPTEL</h3>
+                            <p>Cloud Computing</p><br>
+                            <h3>UDEMY</h3>
+                            <p>Java Progamming</p>
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----------portfolio--------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/image-1.jpg">
+                    <div class="layer">
+                        <h3>Virtual Mouse</h3>
+                        <p>Virtual Mouse is a advanced technique in this
+                            technological world. Through which one can control the
+                            gestures using their hands instead of an Physical mouse.
+
+                        </p>
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/image-2.jpg">
+                    <div class="layer">
+                        <h3>Plant Disease Detection</h3>
+                        <p>Finding the plant disease is the only initial step in
+                            reducing losses in agricultural product production and
+                            quantity. </p>
+                        <i class="fa-sharp fa-solid fa-seedling"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!--------contact------>
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact</h1>
+                            <p><i class="fa-solid fa-paper-plane"> </i> duniquesoul@gmail.com</p>
+                            <p><i class="fa-solid fa-phone-volume"> </i> +91 9489866004</p>
+                            <div class="social-icons">
+                                <a href="https://github.com/Viveka-001"><i class="fa-brands fa-github"></i></i></a>
+                                <a href="https://www.linkedin.com/in/viveka-senthil-108757241"><i
+                                        class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                            <a href="image/VIVEKA S.pdf" download class="btn btn2">Download Resume</a>
+                            <a href="https://drive.google.com/drive/folders/143d8jbxVN2kw1BvpNAN3hnG9vW1x4bYj?usp=share_link"
+                                class="btn btn2">Download Certifications</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+
+                function opentab(tabname) {
+                    for (tablink of tablinks) {
+                        tablink.classList.remove("active-link");
+                    }
+                    for (tabcontent of tabcontents) {
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+
+
+            </script>
+            <script>
+                var sidemenu = document.getElementById("sidemenu");
+                function openmenu() {
+                    sidemenu.style.right = "0";
+                }
+                function closemenu() {
+                    sidemenu.style.right = "-200px";
+                }
+            </script>
+
+</body>
+
+</html>
